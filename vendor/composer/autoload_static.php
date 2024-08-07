@@ -16,14 +16,15 @@ class ComposerStaticInit5a0bd7d88117abde1580876b91589bab
         '25072dd6e2470089de65ae7bf11d3109' => __DIR__ . '/..' . '/symfony/polyfill-php72/bootstrap.php',
         'f598d06aa772fa33d905e87be6398fb1' => __DIR__ . '/..' . '/symfony/polyfill-intl-idn/bootstrap.php',
         '8825ede83f2f289127722d4e842cf7e8' => __DIR__ . '/..' . '/symfony/polyfill-intl-grapheme/bootstrap.php',
-        'b6b991a57620e2fb6b2f66f03fe9ddc2' => __DIR__ . '/..' . '/symfony/string/Resources/functions.php',
         '662a729f963d39afe703c9d9b7ab4a8c' => __DIR__ . '/..' . '/symfony/polyfill-php83/bootstrap.php',
+        'b6b991a57620e2fb6b2f66f03fe9ddc2' => __DIR__ . '/..' . '/symfony/string/Resources/functions.php',
         '7b11c4dc42b3b3023073cb14e519683c' => __DIR__ . '/..' . '/ralouphie/getallheaders/src/getallheaders.php',
         'e39a8b23c42d4e1452234d762b03835a' => __DIR__ . '/..' . '/ramsey/uuid/src/functions.php',
         'a1105708a18b76903365ca1c4aa61b02' => __DIR__ . '/..' . '/symfony/translation/Resources/functions.php',
         '37a3dc5111fe8f707ab4c132ef1dbc62' => __DIR__ . '/..' . '/guzzlehttp/guzzle/src/functions_include.php',
-        '3bd81c9b8fcc150b69d8b63b4d2ccf23' => __DIR__ . '/..' . '/spatie/flare-client-php/src/helpers.php',
         '09f6b20656683369174dd6fa83b7e5fb' => __DIR__ . '/..' . '/symfony/polyfill-uuid/bootstrap.php',
+        '35a6ad97d21e794e7e22a17d806652e4' => __DIR__ . '/..' . '/nunomaduro/termwind/src/Functions.php',
+        '3bd81c9b8fcc150b69d8b63b4d2ccf23' => __DIR__ . '/..' . '/spatie/flare-client-php/src/helpers.php',
         '2cffec82183ee1cea088009cef9a6fc3' => __DIR__ . '/..' . '/ezyang/htmlpurifier/library/HTMLPurifier.composer.php',
         '07d7f1a47144818725fd8d91a907ac57' => __DIR__ . '/..' . '/laminas/laminas-diactoros/src/functions/create_uploaded_file.php',
         'da94ac5d3ca7d2dbab84ce561ce72bfd' => __DIR__ . '/..' . '/laminas/laminas-diactoros/src/functions/marshal_headers_from_sapi.php',
@@ -32,7 +33,10 @@ class ComposerStaticInit5a0bd7d88117abde1580876b91589bab
         'de95e0ac670b27c84ef8c5ac41fc1b34' => __DIR__ . '/..' . '/laminas/laminas-diactoros/src/functions/normalize_server.php',
         'b6c2870932b0250c10334a86dcb33c7f' => __DIR__ . '/..' . '/laminas/laminas-diactoros/src/functions/normalize_uploaded_files.php',
         'd02cf21124526632320d6f20b1bbf905' => __DIR__ . '/..' . '/laminas/laminas-diactoros/src/functions/parse_cookie_header.php',
-        '35a6ad97d21e794e7e22a17d806652e4' => __DIR__ . '/..' . '/nunomaduro/termwind/src/Functions.php',
+        '265b4faa2b3a9766332744949e83bf97' => __DIR__ . '/..' . '/laravel/framework/src/Illuminate/Collections/helpers.php',
+        'c7a3c339e7e14b60e06a2d7fcce9476b' => __DIR__ . '/..' . '/laravel/framework/src/Illuminate/Events/functions.php',
+        'f0906e6318348a765ffb6eb24e0d0938' => __DIR__ . '/..' . '/laravel/framework/src/Illuminate/Foundation/helpers.php',
+        '58571171fd5812e6e447dce228f52f4d' => __DIR__ . '/..' . '/laravel/framework/src/Illuminate/Support/helpers.php',
         'bbd3f4c222c0dc01d51aaddd000c7145' => __DIR__ . '/..' . '/pragmarx/ia-arr/src/Support/helpers.php',
         '5de818542d3f05537910d3201983c6e4' => __DIR__ . '/..' . '/pragmarx/ia-arr/src/Support/alias.php',
         'd1bbbb1cdb91a23bb0785f5b4c1b000a' => __DIR__ . '/..' . '/pragmarx/ia-collection/src/Support/helpers.php',
@@ -41,10 +45,6 @@ class ComposerStaticInit5a0bd7d88117abde1580876b91589bab
         'e932c180925ac557b75404ab8ceaf2ec' => __DIR__ . '/..' . '/pragmarx/ia-str/src/Support/alias.php',
         '5c70426340c07411ceee79728a2304a8' => __DIR__ . '/..' . '/vonage/nexmo-bridge/src/autoload.php',
         '7aed44d824e149ce152c0fb82af9379a' => __DIR__ . '/..' . '/colinodell/json5/src/global.php',
-        '265b4faa2b3a9766332744949e83bf97' => __DIR__ . '/..' . '/laravel/framework/src/Illuminate/Collections/helpers.php',
-        'c7a3c339e7e14b60e06a2d7fcce9476b' => __DIR__ . '/..' . '/laravel/framework/src/Illuminate/Events/functions.php',
-        'f0906e6318348a765ffb6eb24e0d0938' => __DIR__ . '/..' . '/laravel/framework/src/Illuminate/Foundation/helpers.php',
-        '58571171fd5812e6e447dce228f52f4d' => __DIR__ . '/..' . '/laravel/framework/src/Illuminate/Support/helpers.php',
         '6124b4c8570aa390c21fafd04a26c69f' => __DIR__ . '/..' . '/myclabs/deep-copy/src/DeepCopy/deep_copy.php',
         '8de48d62a74adbc904265684a8d5ac6d' => __DIR__ . '/..' . '/pragmarx/coollection/src/package/Support/helpers.php',
         '801c31d8ed748cfa537fa45402288c95' => __DIR__ . '/..' . '/psy/psysh/src/functions.php',
@@ -123,6 +123,7 @@ class ComposerStaticInit5a0bd7d88117abde1580876b91589bab
             'Symfony\\Component\\CssSelector\\' => 30,
             'Symfony\\Component\\Console\\' => 26,
             'Stripe\\' => 7,
+            'Stichoza\\GoogleTranslate\\' => 25,
             'Srmklive\\PayPal\\' => 16,
             'Spatie\\TemporaryDirectory\\' => 26,
             'Spatie\\Permission\\' => 18,
@@ -268,6 +269,7 @@ class ComposerStaticInit5a0bd7d88117abde1580876b91589bab
         array (
             'App\\' => 4,
             'Anand\\LaravelPaytmWallet\\' => 25,
+            'Alisalehi\\LaravelLangFilesTranslator\\' => 37,
         ),
     );
 
@@ -298,8 +300,8 @@ class ComposerStaticInit5a0bd7d88117abde1580876b91589bab
         ),
         'Vonage\\' => 
         array (
-            0 => __DIR__ . '/..' . '/vonage/jwt/src',
-            1 => __DIR__ . '/..' . '/vonage/client-core/src',
+            0 => __DIR__ . '/..' . '/vonage/client-core/src',
+            1 => __DIR__ . '/..' . '/vonage/jwt/src',
         ),
         'Unicodeveloper\\Paystack\\' => 
         array (
@@ -432,6 +434,10 @@ class ComposerStaticInit5a0bd7d88117abde1580876b91589bab
         'Stripe\\' => 
         array (
             0 => __DIR__ . '/..' . '/stripe/stripe-php/lib',
+        ),
+        'Stichoza\\GoogleTranslate\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/stichoza/google-translate-php/src',
         ),
         'Srmklive\\PayPal\\' => 
         array (
@@ -839,6 +845,10 @@ class ComposerStaticInit5a0bd7d88117abde1580876b91589bab
         array (
             0 => __DIR__ . '/..' . '/anandsiddharth/laravel-paytm-wallet/src',
         ),
+        'Alisalehi\\LaravelLangFilesTranslator\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/alisalehi/laravel-lang-files-translator/src',
+        ),
     );
 
     public static $prefixesPsr0 = array (
@@ -852,6 +862,9 @@ class ComposerStaticInit5a0bd7d88117abde1580876b91589bab
     );
 
     public static $classMap = array (
+        'Alisalehi\\LaravelLangFilesTranslator\\Commands\\Translate' => __DIR__ . '/..' . '/alisalehi/laravel-lang-files-translator/src/Commands/Translate.php',
+        'Alisalehi\\LaravelLangFilesTranslator\\LangFilesTranslatorServiceProvider' => __DIR__ . '/..' . '/alisalehi/laravel-lang-files-translator/src/LangFilesTranslatorServiceProvider.php',
+        'Alisalehi\\LaravelLangFilesTranslator\\Services\\TranslateService' => __DIR__ . '/..' . '/alisalehi/laravel-lang-files-translator/src/Services/TranslateService.php',
         'Anand\\LaravelPaytmWallet\\Contracts\\Factory' => __DIR__ . '/..' . '/anandsiddharth/laravel-paytm-wallet/src/Contracts/Factory.php',
         'Anand\\LaravelPaytmWallet\\Contracts\\Provider' => __DIR__ . '/..' . '/anandsiddharth/laravel-paytm-wallet/src/Contracts/Provider.php',
         'Anand\\LaravelPaytmWallet\\Facades\\PaytmWallet' => __DIR__ . '/..' . '/anandsiddharth/laravel-paytm-wallet/src/Facades/PaytmWallet.php',
@@ -7600,6 +7613,15 @@ class ComposerStaticInit5a0bd7d88117abde1580876b91589bab
         'Srmklive\\PayPal\\Traits\\PayPalHttpClient' => __DIR__ . '/..' . '/srmklive/paypal/src/Traits/PayPalHttpClient.php',
         'Srmklive\\PayPal\\Traits\\PayPalRequest' => __DIR__ . '/..' . '/srmklive/paypal/src/Traits/PayPalRequest.php',
         'Srmklive\\PayPal\\Traits\\PayPalVerifyIPN' => __DIR__ . '/..' . '/srmklive/paypal/src/Traits/PayPalVerifyIPN.php',
+        'Stichoza\\GoogleTranslate\\Exceptions\\LanguagesRequestException' => __DIR__ . '/..' . '/stichoza/google-translate-php/src/Exceptions/LanguagesRequestException.php',
+        'Stichoza\\GoogleTranslate\\Exceptions\\LargeTextException' => __DIR__ . '/..' . '/stichoza/google-translate-php/src/Exceptions/LargeTextException.php',
+        'Stichoza\\GoogleTranslate\\Exceptions\\RateLimitException' => __DIR__ . '/..' . '/stichoza/google-translate-php/src/Exceptions/RateLimitException.php',
+        'Stichoza\\GoogleTranslate\\Exceptions\\TranslationDecodingException' => __DIR__ . '/..' . '/stichoza/google-translate-php/src/Exceptions/TranslationDecodingException.php',
+        'Stichoza\\GoogleTranslate\\Exceptions\\TranslationRequestException' => __DIR__ . '/..' . '/stichoza/google-translate-php/src/Exceptions/TranslationRequestException.php',
+        'Stichoza\\GoogleTranslate\\GoogleTranslate' => __DIR__ . '/..' . '/stichoza/google-translate-php/src/GoogleTranslate.php',
+        'Stichoza\\GoogleTranslate\\Tokens\\GoogleTokenGenerator' => __DIR__ . '/..' . '/stichoza/google-translate-php/src/Tokens/GoogleTokenGenerator.php',
+        'Stichoza\\GoogleTranslate\\Tokens\\SampleTokenGenerator' => __DIR__ . '/..' . '/stichoza/google-translate-php/src/Tokens/SampleTokenGenerator.php',
+        'Stichoza\\GoogleTranslate\\Tokens\\TokenProviderInterface' => __DIR__ . '/..' . '/stichoza/google-translate-php/src/Tokens/TokenProviderInterface.php',
         'Stringable' => __DIR__ . '/..' . '/symfony/polyfill-php80/Resources/stubs/Stringable.php',
         'Stripe\\Account' => __DIR__ . '/..' . '/stripe/stripe-php/lib/Account.php',
         'Stripe\\AccountLink' => __DIR__ . '/..' . '/stripe/stripe-php/lib/AccountLink.php',

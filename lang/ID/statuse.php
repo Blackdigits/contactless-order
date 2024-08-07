@@ -1,9 +1,4 @@
-<?php
-
-use App\Enums\Status;
-
-return [
-    Status::ACTIVE   => 'Active',
-    Status::INACTIVE => 'Inactive',
-
-];
+<?php return array (
+  5 => 'Aktif',
+  10 => 'Tidak aktif',
+);

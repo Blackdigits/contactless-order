@@ -1,15 +1,24 @@
 <?php return array(
     'root' => array(
         'name' => 'laravel/laravel',
-        'pretty_version' => '1.0.0+no-version-set',
-        'version' => '1.0.0.0',
-        'reference' => NULL,
+        'pretty_version' => 'dev-main',
+        'version' => 'dev-main',
+        'reference' => '10136945a0ff05c17d559c5135c82b32c4905f19',
         'type' => 'project',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
         'dev' => true,
     ),
     'versions' => array(
+        'alisalehi/laravel-lang-files-translator' => array(
+            'pretty_version' => 'v1.0.03',
+            'version' => '1.0.03.0',
+            'reference' => '19dcff1caf18803ff049716617701400c6b6c511',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../alisalehi/laravel-lang-files-translator',
+            'aliases' => array(),
+            'dev_requirement' => false,
+        ),
         'anandsiddharth/laravel-paytm-wallet' => array(
             'pretty_version' => 'v2.0.0',
             'version' => '2.0.0.0',
@@ -520,9 +529,9 @@
             'dev_requirement' => false,
         ),
         'laravel/laravel' => array(
-            'pretty_version' => '1.0.0+no-version-set',
-            'version' => '1.0.0.0',
-            'reference' => NULL,
+            'pretty_version' => 'dev-main',
+            'version' => 'dev-main',
+            'reference' => '10136945a0ff05c17d559c5135c82b32c4905f19',
             'type' => 'project',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),
@@ -1052,8 +1061,8 @@
         'psr/log-implementation' => array(
             'dev_requirement' => false,
             'provided' => array(
-                0 => '1.0|2.0|3.0',
-                1 => '1.0.0 || 2.0.0 || 3.0.0',
+                0 => '1.0.0 || 2.0.0 || 3.0.0',
+                1 => '1.0|2.0|3.0',
             ),
         ),
         'psr/simple-cache' => array(
@@ -1389,6 +1398,15 @@
             'reference' => 'd511038ff01f466e7bfca475c7417b5a6c4d38a5',
             'type' => 'library',
             'install_path' => __DIR__ . '/../srmklive/paypal',
+            'aliases' => array(),
+            'dev_requirement' => false,
+        ),
+        'stichoza/google-translate-php' => array(
+            'pretty_version' => 'v5.2.0',
+            'version' => '5.2.0.0',
+            'reference' => '9429773d991c98f68a25bec40d20f590ea3312a0',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../stichoza/google-translate-php',
             'aliases' => array(),
             'dev_requirement' => false,
         ),

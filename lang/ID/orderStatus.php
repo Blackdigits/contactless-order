@@ -1,16 +1,10 @@
-<?php
-
-use App\Enums\OrderStatus;
-
-return [
-    OrderStatus::PENDING          => 'Pending',
-    OrderStatus::ACCEPT           => 'Accept',
-    OrderStatus::PROCESSING       => 'Processing',
-    OrderStatus::OUT_FOR_DELIVERY => 'Out For Delivery',
-    OrderStatus::DELIVERED        => 'Delivered',
-    OrderStatus::CANCELED         => 'Canceled',
-    OrderStatus::REJECTED         => 'Rejected',
-    OrderStatus::RETURNED         => 'Returned',
-
-
-];
+<?php return array (
+  1 => 'Tertunda',
+  4 => 'Diterima',
+  7 => 'Diproses',
+  10 => 'Pengantaran',
+  13 => 'Dihidangkan',
+  16 => 'Dibatalkan',
+  19 => 'Ditolak',
+  22 => 'Dikembalikan',
+);

@@ -1,6 +1,4 @@
-<?php
-
-return array (
-  5  => 'Fixed',
-  10 => 'Percentage',
+<?php return array (
+  5 => 'Nominal',
+  10 => 'Persen',
 );

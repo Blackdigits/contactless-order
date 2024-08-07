@@ -1,11 +1,6 @@
-<?php
-
-use App\Enums\OrderType;
-
-return [
-    OrderType::DELIVERY     => 'Delivery',
-    OrderType::TAKEAWAY     => 'Takeaway',
-    OrderType::POS          => 'Pos',
-    OrderType::DINING_TABLE => 'Dining Table',
-
-];
+<?php return array (
+  5 => 'Delivery',
+  10 => 'Take Away',
+  15 => 'Kasir / Driver',
+  20 => 'Dine-in',
+);

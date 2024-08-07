@@ -1,9 +1,5 @@
-<?php
-
-use App\Enums\AddressType;
-
-return [
-    AddressType::HOME  => 'Home',
-    AddressType::WORK  => 'Work',
-    AddressType::OTHER => 'Other'
-];
+<?php return array (
+  5 => 'Rumah',
+  10 => 'Kantor',
+  15 => 'Lainnya',
+);

@@ -1,9 +1,4 @@
-<?php
-
-use App\Enums\ItemType;
-
-return [
-    ItemType::VEG   => 'Veg',
-    ItemType::NON_VEG => 'Non Veg',
-
-];
+<?php return array (
+  5 => 'Vegetarian',
+  10 => 'Non-Vegetarian',
+);

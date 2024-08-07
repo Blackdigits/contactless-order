@@ -6,6 +6,9 @@ $vendorDir = dirname(__DIR__);
 $baseDir = dirname($vendorDir);
 
 return array(
+    'Alisalehi\\LaravelLangFilesTranslator\\Commands\\Translate' => $vendorDir . '/alisalehi/laravel-lang-files-translator/src/Commands/Translate.php',
+    'Alisalehi\\LaravelLangFilesTranslator\\LangFilesTranslatorServiceProvider' => $vendorDir . '/alisalehi/laravel-lang-files-translator/src/LangFilesTranslatorServiceProvider.php',
+    'Alisalehi\\LaravelLangFilesTranslator\\Services\\TranslateService' => $vendorDir . '/alisalehi/laravel-lang-files-translator/src/Services/TranslateService.php',
     'Anand\\LaravelPaytmWallet\\Contracts\\Factory' => $vendorDir . '/anandsiddharth/laravel-paytm-wallet/src/Contracts/Factory.php',
     'Anand\\LaravelPaytmWallet\\Contracts\\Provider' => $vendorDir . '/anandsiddharth/laravel-paytm-wallet/src/Contracts/Provider.php',
     'Anand\\LaravelPaytmWallet\\Facades\\PaytmWallet' => $vendorDir . '/anandsiddharth/laravel-paytm-wallet/src/Facades/PaytmWallet.php',
@@ -6754,6 +6757,15 @@ return array(
     'Srmklive\\PayPal\\Traits\\PayPalHttpClient' => $vendorDir . '/srmklive/paypal/src/Traits/PayPalHttpClient.php',
     'Srmklive\\PayPal\\Traits\\PayPalRequest' => $vendorDir . '/srmklive/paypal/src/Traits/PayPalRequest.php',
     'Srmklive\\PayPal\\Traits\\PayPalVerifyIPN' => $vendorDir . '/srmklive/paypal/src/Traits/PayPalVerifyIPN.php',
+    'Stichoza\\GoogleTranslate\\Exceptions\\LanguagesRequestException' => $vendorDir . '/stichoza/google-translate-php/src/Exceptions/LanguagesRequestException.php',
+    'Stichoza\\GoogleTranslate\\Exceptions\\LargeTextException' => $vendorDir . '/stichoza/google-translate-php/src/Exceptions/LargeTextException.php',
+    'Stichoza\\GoogleTranslate\\Exceptions\\RateLimitException' => $vendorDir . '/stichoza/google-translate-php/src/Exceptions/RateLimitException.php',
+    'Stichoza\\GoogleTranslate\\Exceptions\\TranslationDecodingException' => $vendorDir . '/stichoza/google-translate-php/src/Exceptions/TranslationDecodingException.php',
+    'Stichoza\\GoogleTranslate\\Exceptions\\TranslationRequestException' => $vendorDir . '/stichoza/google-translate-php/src/Exceptions/TranslationRequestException.php',
+    'Stichoza\\GoogleTranslate\\GoogleTranslate' => $vendorDir . '/stichoza/google-translate-php/src/GoogleTranslate.php',
+    'Stichoza\\GoogleTranslate\\Tokens\\GoogleTokenGenerator' => $vendorDir . '/stichoza/google-translate-php/src/Tokens/GoogleTokenGenerator.php',
+    'Stichoza\\GoogleTranslate\\Tokens\\SampleTokenGenerator' => $vendorDir . '/stichoza/google-translate-php/src/Tokens/SampleTokenGenerator.php',
+    'Stichoza\\GoogleTranslate\\Tokens\\TokenProviderInterface' => $vendorDir . '/stichoza/google-translate-php/src/Tokens/TokenProviderInterface.php',
     'Stringable' => $vendorDir . '/symfony/polyfill-php80/Resources/stubs/Stringable.php',
     'Stripe\\Account' => $vendorDir . '/stripe/stripe-php/lib/Account.php',
     'Stripe\\AccountLink' => $vendorDir . '/stripe/stripe-php/lib/AccountLink.php',

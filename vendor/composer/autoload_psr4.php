@@ -12,7 +12,7 @@ return array(
     'Whoops\\' => array($vendorDir . '/filp/whoops/src/Whoops'),
     'Webmozart\\Assert\\' => array($vendorDir . '/webmozart/assert/src'),
     'Vonage\\NexmoBridge\\' => array($vendorDir . '/vonage/nexmo-bridge/src'),
-    'Vonage\\' => array($vendorDir . '/vonage/jwt/src', $vendorDir . '/vonage/client-core/src'),
+    'Vonage\\' => array($vendorDir . '/vonage/client-core/src', $vendorDir . '/vonage/jwt/src'),
     'Unicodeveloper\\Paystack\\' => array($vendorDir . '/unicodeveloper/laravel-paystack/src'),
     'Twilio\\' => array($vendorDir . '/twilio/sdk/src/Twilio'),
     'TijsVerkoyen\\CssToInlineStyles\\' => array($vendorDir . '/tijsverkoyen/css-to-inline-styles/src'),
@@ -46,6 +46,7 @@ return array(
     'Symfony\\Component\\CssSelector\\' => array($vendorDir . '/symfony/css-selector'),
     'Symfony\\Component\\Console\\' => array($vendorDir . '/symfony/console'),
     'Stripe\\' => array($vendorDir . '/stripe/stripe-php/lib'),
+    'Stichoza\\GoogleTranslate\\' => array($vendorDir . '/stichoza/google-translate-php/src'),
     'Srmklive\\PayPal\\' => array($vendorDir . '/srmklive/paypal/src'),
     'Spatie\\TemporaryDirectory\\' => array($vendorDir . '/spatie/temporary-directory/src'),
     'Spatie\\Permission\\' => array($vendorDir . '/spatie/laravel-permission/src'),
@@ -146,4 +147,5 @@ return array(
     'BaconQrCode\\' => array($vendorDir . '/bacon/bacon-qr-code/src'),
     'App\\' => array($baseDir . '/app', $vendorDir . '/laravel/pint/app'),
     'Anand\\LaravelPaytmWallet\\' => array($vendorDir . '/anandsiddharth/laravel-paytm-wallet/src'),
+    'Alisalehi\\LaravelLangFilesTranslator\\' => array($vendorDir . '/alisalehi/laravel-lang-files-translator/src'),
 );

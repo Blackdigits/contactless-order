@@ -1,6 +1,66 @@
 {
     "packages": [
         {
+            "name": "alisalehi/laravel-lang-files-translator",
+            "version": "v1.0.03",
+            "version_normalized": "1.0.03.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/alisalehi1380/laravel-lang-files-translator.git",
+                "reference": "19dcff1caf18803ff049716617701400c6b6c511"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/alisalehi1380/laravel-lang-files-translator/zipball/19dcff1caf18803ff049716617701400c6b6c511",
+                "reference": "19dcff1caf18803ff049716617701400c6b6c511",
+                "shasum": ""
+            },
+            "require": {
+                "laravel/framework": "9.*|10.*|11.*",
+                "php": ">=8.0",
+                "stichoza/google-translate-php": "^5.1"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "^10.4"
+            },
+            "time": "2024-06-03T12:30:37+00:00",
+            "type": "library",
+            "extra": {
+                "laravel": {
+                    "providers": [
+                        "Alisalehi\\LaravelLangFilesTranslator\\LangFilesTranslatorServiceProvider"
+                    ]
+                }
+            },
+            "installation-source": "dist",
+            "autoload": {
+                "psr-4": {
+                    "Alisalehi\\LaravelLangFilesTranslator\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": ":Ali Salehi",
+                    "email": "alisalehi13800930@gmail.com"
+                }
+            ],
+            "description": "easiest way to translate lang files to another language in laravel",
+            "homepage": "https://github.com/alisalehi1380/laravel-lang-files-translator",
+            "keywords": [
+                "laravel lang files translator",
+                "laravel translator"
+            ],
+            "support": {
+                "issues": "https://github.com/alisalehi1380/laravel-lang-files-translator/issues",
+                "source": "https://github.com/alisalehi1380/laravel-lang-files-translator/tree/v1.0.03"
+            },
+            "install-path": "../alisalehi/laravel-lang-files-translator"
+        },
+        {
             "name": "anandsiddharth/laravel-paytm-wallet",
             "version": "v2.0.0",
             "version_normalized": "2.0.0.0",
@@ -8978,6 +9038,90 @@
                 "source": "https://github.com/srmklive/laravel-paypal/tree/3.0.30"
             },
             "install-path": "../srmklive/paypal"
+        },
+        {
+            "name": "stichoza/google-translate-php",
+            "version": "v5.2.0",
+            "version_normalized": "5.2.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/Stichoza/google-translate-php.git",
+                "reference": "9429773d991c98f68a25bec40d20f590ea3312a0"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/Stichoza/google-translate-php/zipball/9429773d991c98f68a25bec40d20f590ea3312a0",
+                "reference": "9429773d991c98f68a25bec40d20f590ea3312a0",
+                "shasum": ""
+            },
+            "require": {
+                "ext-dom": "*",
+                "ext-json": "*",
+                "ext-mbstring": "*",
+                "guzzlehttp/guzzle": "^7.0",
+                "php": "^8.0"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "^9.5.10"
+            },
+            "time": "2024-08-05T19:11:36+00:00",
+            "type": "library",
+            "installation-source": "dist",
+            "autoload": {
+                "psr-4": {
+                    "Stichoza\\GoogleTranslate\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Levan Velijanashvili",
+                    "email": "me@stichoza.com"
+                }
+            ],
+            "description": "Free Google Translate API PHP Package",
+            "homepage": "https://github.com/Stichoza/google-translate-php",
+            "keywords": [
+                "google",
+                "php",
+                "translate",
+                "translating",
+                "translator"
+            ],
+            "support": {
+                "issues": "https://github.com/Stichoza/google-translate-php/issues",
+                "source": "https://github.com/Stichoza/google-translate-php/tree/v5.2.0"
+            },
+            "funding": [
+                {
+                    "url": "https://btc.com/bc1qc25j4x7yahghm8nnn6lypnw59nptylsw32nkfl",
+                    "type": "custom"
+                },
+                {
+                    "url": "https://www.paypal.me/stichoza",
+                    "type": "custom"
+                },
+                {
+                    "url": "https://ko-fi.com/stichoza",
+                    "type": "ko_fi"
+                },
+                {
+                    "url": "https://liberapay.com/stichoza",
+                    "type": "liberapay"
+                },
+                {
+                    "url": "https://opencollective.com/stichoza",
+                    "type": "open_collective"
+                },
+                {
+                    "url": "https://www.patreon.com/stichoza",
+                    "type": "patreon"
+                }
+            ],
+            "install-path": "../stichoza/google-translate-php"
         },
         {
             "name": "stripe/stripe-php",

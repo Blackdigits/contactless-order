@@ -1,73 +1,81 @@
-<?php
-
-
-return [
-    'title' => 'Food Scan Installer',
-    'next'  => 'Next Step',
-    'welcome' => [
-        'templateTitle' => 'Welcome',
-        'title'         => 'Food Scan Installer',
-        'message'       => 'Easy Installation and Setup Wizard.',
-        'next'          => 'Check Requirements',
-    ],
-    'requirement' => [
-        'templateTitle' => 'Step 1 | Server Requirements',
-        'title'         => 'Server Requirements',
-        'next'          => 'Check Permissions',
-        'version'       => 'version',
-        'required'      => 'required'
-    ],
-    'permission' => [
-        'templateTitle'       => 'Step 2 | Permissions',
-        'title'               => 'Permissions',
-        'next'                => 'License Setup',
-        'permission_checking' => 'Permission Checking'
-    ],
-    'license' => [
-        'templateTitle'       => 'Step 3 | License',
-        'title'               => 'License Setup',
-        'next'                => 'Site Setup',
-        'active_process'      => 'Active Process',
-        'label'               => [
-            'license_key' => 'License Key'
-        ]
-    ],
-    'site'     => [
-        'templateTitle' => 'Step 4 | Site Setup',
-        'title'         => 'Site Setup',
-        'next'          => 'Database Setup',
-        'label'         => [
-            'app_name' => 'App Name',
-            'app_url'  => 'App Url',
-        ]
-    ],
-    'database' => [
-        'templateTitle' => 'Step 5 | Database Setup',
-        'title'         => 'Database Setup',
-        'next'          => 'Final Setup',
-        'fail_message'  => 'Could not connect to the database.',
-        'label'         => [
-            'database_connection' => 'Database Connection',
-            'database_host'       => 'Database Host',
-            'database_port'       => 'Database Port',
-            'database_name'       => 'Database Name',
-            'database_username'   => 'Database Username',
-            'database_password'   => 'Database Password',
-        ]
-    ],
-    'final'    => [
-        'templateTitle'   => 'Step 6 | Final Setup',
-        'title'           => 'Final Setup',
-        'success_message' => 'Application has been successfully installed.',
-        'login_info'      => 'Login Information',
-        'email'           => 'Email',
-        'password'        => 'Password',
-        'email_info'      => 'admin@example.com',
-        'password_info'   => '123456',
-        'next'            => 'Finish',
-    ],
-    'installed' => [
-        'success_log_message' => 'Food Scan installer successfully INSTALLED on ',
-        'update_log_message'  => 'Food Scan Installer successfully UPDATED on ',
-    ],
-];
+<?php return array (
+  'title' => 'Pemesanan Nirsentuh',
+  'next' => 'Berikutnya',
+  'welcome' => 
+  array (
+    'templateTitle' => 'Selamat datang',
+    'title' => 'Aplikasi Nirsentuh',
+    'message' => 'Wizard Instalasi dan Pengaturan yang Mudah.',
+    'next' => 'Periksa Persyaratan',
+  ),
+  'requirement' => 
+  array (
+    'templateTitle' => 'Langkah 1 | Persyaratan Server',
+    'title' => 'Persyaratan Server',
+    'next' => 'Periksa Izin',
+    'version' => 'Versi: kapan',
+    'required' => 'diperlukan',
+  ),
+  'permission' => 
+  array (
+    'templateTitle' => 'Langkah 2 | Izin',
+    'title' => 'Izin',
+    'next' => 'Pengaturan Lisensi',
+    'permission_checking' => 'Pemeriksaan Izin',
+  ),
+  'license' => 
+  array (
+    'templateTitle' => 'Langkah 3 | Lisensi',
+    'title' => 'Pengaturan Lisensi',
+    'next' => 'Pengaturan Situs',
+    'active_process' => 'Proses Aktif',
+    'label' => 
+    array (
+      'license_key' => 'Kunci lisensi',
+    ),
+  ),
+  'site' => 
+  array (
+    'templateTitle' => 'Langkah 4 | Pengaturan Situs',
+    'title' => 'Pengaturan Situs',
+    'next' => 'Pengaturan Basis Data',
+    'label' => 
+    array (
+      'app_name' => 'Nama aplikasi',
+      'app_url' => 'Url Aplikasi',
+    ),
+  ),
+  'database' => 
+  array (
+    'templateTitle' => 'Langkah 5 | Pengaturan Basis Data',
+    'title' => 'Pengaturan Basis Data',
+    'next' => 'Pengaturan Akhir',
+    'fail_message' => 'Tidak dapat terhubung ke database.',
+    'label' => 
+    array (
+      'database_connection' => 'Koneksi Basis Data',
+      'database_host' => 'Tuan Rumah Basis Data',
+      'database_port' => 'Pelabuhan Basis Data',
+      'database_name' => 'Nama Basis Data',
+      'database_username' => 'Nama Pengguna Basis Data',
+      'database_password' => 'Kata Sandi Basis Data',
+    ),
+  ),
+  'final' => 
+  array (
+    'templateTitle' => 'Langkah 6 | Pengaturan Akhir',
+    'title' => 'Pengaturan Akhir',
+    'success_message' => 'Aplikasi telah berhasil diinstal.',
+    'login_info' => 'Informasi Masuk',
+    'email' => 'Surel',
+    'password' => 'Kata sandi',
+    'email_info' => 'admin@contoh.com',
+    'password_info' => '123456',
+    'next' => 'Menyelesaikan',
+  ),
+  'installed' => 
+  array (
+    'success_log_message' => 'Pemasang Food Scan berhasil DIINSTAL',
+    'update_log_message' => 'Penginstal Pemindaian Makanan berhasil DIPERBARUI pada',
+  ),
+);

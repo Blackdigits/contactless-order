@@ -1,9 +1,4 @@
-<?php
-
-use App\Enums\PaymentStatus;
-
-return [
-    PaymentStatus::PAID   => 'Paid',
-    PaymentStatus::UNPAID => 'Unpaid',
-
-];
+<?php return array (
+  5 => 'Sudah Bayar',
+  10 => 'Belum Bayar',
+);

@@ -10,6 +10,7 @@
         "ext-http": "*",
         "ext-json": "*",
         "ext-pdo": "*",
+        "alisalehi/laravel-lang-files-translator": "^1.0",
         "anandsiddharth/laravel-paytm-wallet": "^2.0",
         "dipesh79/laravel-phonepe": "*",
         "dipokhalder/laravel-env-editor": "^1.0",
